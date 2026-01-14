@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "equiped_head": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&low_hp"
+              },
+              "score": "upgradeablespawners.config"
+            },
+            "range": 1
+          }
+        ],
+        "item": {
+          "items": "#upgradeablespawners:low_hp_upgrade"
+        },
+        "entity": {
+          "type": "minecraft:item_frame",
+          "nbt": "{Facing:0b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "upgradeablespawners:app/item_frame/low_hp/facing_down"
+  }
+}

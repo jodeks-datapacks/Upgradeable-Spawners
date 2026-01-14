@@ -1,0 +1,17 @@
+{
+  "project_id": "eyq1jRp8",
+  "curseforge_project_id": "1429197",
+  "curseforge_slug": "upgradeable-spawners",
+  "loaders": [
+    "datapack"
+  ],
+  "game_versions": [
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11"
+  ],
+  "version_type": "release",
+  "dependencies": "",
+  "discord_role_id": "1438477077044138027"
+}

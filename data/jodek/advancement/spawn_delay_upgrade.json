@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": "Spawn Delay Upgrade              ",
+    "description": [
+      {
+        "text": "Decreases spawn delay of the spawner\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "Default: 10-40 seconds\n\n",
+        "color": "green",
+        "bold": false
+      },
+      {
+        "text": "1 Module: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "10-20 seconds\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "2 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "10-15 seconds\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "3 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "5-10 seconds\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "4 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "5 seconds",
+        "color": "white",
+        "bold": false
+      }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "jodek:spawn_count_upgrade",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

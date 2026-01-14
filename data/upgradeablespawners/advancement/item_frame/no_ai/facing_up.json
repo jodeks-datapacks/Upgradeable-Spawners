@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "equiped_head": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&no_ai"
+              },
+              "score": "upgradeablespawners.config"
+            },
+            "range": 1
+          }
+        ],
+        "item": {
+          "items": "#upgradeablespawners:no_ai_upgrade"
+        },
+        "entity": {
+          "type": "minecraft:item_frame",
+          "nbt": "{Facing:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "upgradeablespawners:app/item_frame/no_ai/facing_up"
+  }
+}

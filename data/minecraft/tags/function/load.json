@@ -1,0 +1,6 @@
+{
+  "values": [
+    "upgradeablespawners:app/setup",
+    "upgradeablespawners:app/load_message"
+  ]
+}

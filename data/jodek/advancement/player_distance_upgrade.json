@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": "Player Distance Upgrade        ",
+    "description": [
+      {
+        "text": "Increases the player distance a spawner can stay active\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "Default: 16 blocks\n\n",
+        "color": "green",
+        "bold": false
+      },
+      {
+        "text": "1 Module: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "32 blocks\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "2 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "64 blocks\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "3 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "128 blocks\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "4 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "192 blocks",
+        "color": "white",
+        "bold": false
+      }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "jodek:spawn_delay_upgrade",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

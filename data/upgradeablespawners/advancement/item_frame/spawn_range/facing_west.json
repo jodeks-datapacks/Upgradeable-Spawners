@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "equiped_head": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&spawn_range"
+              },
+              "score": "upgradeablespawners.config"
+            },
+            "range": 1
+          }
+        ],
+        "item": {
+          "items": "#upgradeablespawners:spawn_range_upgrade"
+        },
+        "entity": {
+          "type": "minecraft:item_frame",
+          "nbt": "{Facing:4b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "upgradeablespawners:app/item_frame/spawn_range/facing_west"
+  }
+}

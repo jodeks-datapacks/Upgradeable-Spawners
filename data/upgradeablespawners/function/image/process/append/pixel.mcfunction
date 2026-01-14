@@ -1,0 +1,1 @@
+function upgradeablespawners:image/process/build_pixel with storage upgradeablespawners:image current

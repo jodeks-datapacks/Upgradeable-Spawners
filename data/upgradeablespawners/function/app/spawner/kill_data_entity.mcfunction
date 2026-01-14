@@ -1,0 +1,1 @@
+execute as @s[nbt={data:{spawn_count:0b,spawn_delay:0b,player_distance:0b,spawn_range:0b,no_ai:0b,low_hp:0b}}] run kill @s

@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_tears"
+    },
+    "title": "Spawn Count Upgrade              ",
+    "description": [
+      {
+        "text": "Increases spawn count of the spawner\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "Default: 4 mobs\n\n",
+        "color": "green",
+        "bold": false
+      },
+      {
+        "text": "1 Module: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "6 mobs\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "2 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "8 mobs\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "3 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "12 mobs\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "4 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "16 mobs",
+        "color": "white",
+        "bold": false
+      }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "jodek:upgradeablespawners",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

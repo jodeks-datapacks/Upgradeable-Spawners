@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": "Spawn Range Upgrade              ",
+    "description": [
+      {
+        "text": "Decreases spawn range of the spawner\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "Default: 9x3x9\n\n",
+        "color": "green",
+        "bold": false
+      },
+      {
+        "text": "1 Module: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "7x3x7\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "2 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "5x3x5\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "3 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "3x3x3\n",
+        "color": "white",
+        "bold": false
+      },
+      {
+        "text": "4 Modules: ",
+        "color": "yellow",
+        "bold": false
+      },
+      {
+        "text": "0x3x0",
+        "color": "white",
+        "bold": false
+      }
+    ],
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "jodek:player_distance_upgrade",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

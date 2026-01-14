@@ -1,0 +1,1 @@
+execute if score @a[tag=upgradeablespawners.riding_ray,limit=1] upgradeablespawners.raycast_hit matches 0 positioned ~-0.9 ~-0.9 ~-0.9 if entity @s[dx=0] positioned ~0.95 ~0.95 ~0.95 run function upgradeablespawners:app/raycast/hit_entity

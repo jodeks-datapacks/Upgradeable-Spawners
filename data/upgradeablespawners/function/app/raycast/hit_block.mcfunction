@@ -1,0 +1,1 @@
+scoreboard players set @a[tag=upgradeablespawners.riding_ray] upgradeablespawners.raycast_hit 1
