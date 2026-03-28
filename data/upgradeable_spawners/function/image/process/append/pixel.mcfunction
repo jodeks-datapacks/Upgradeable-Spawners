@@ -1,0 +1,1 @@
+function upgradeable_spawners:image/process/build_pixel with storage upgradeable_spawners:image data.current

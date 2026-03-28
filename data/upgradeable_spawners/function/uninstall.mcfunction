@@ -1,0 +1,32 @@
+#> upgradeable_spawners:uninstall
+# Function to uninstall the datapack
+
+data remove storage upgradeable_spawners:image data
+data remove storage upgradeable_spawners:root data
+
+scoreboard objectives remove upgradeable_spawners.raycast_start
+scoreboard objectives remove upgradeable_spawners.raycast_hit
+scoreboard objectives remove upgradeable_spawners.raycast_distance
+scoreboard objectives remove upgradeable_spawners.raycast_check
+
+scoreboard objectives remove upgradeable_spawners.config
+
+scoreboard objectives remove upgradeable_spawners.image
+
+scoreboard objectives remove upgradeable_spawners.check
+
+scoreboard objectives remove upgradeable_spawners.spawn_count
+scoreboard objectives remove upgradeable_spawners.player_distance
+scoreboard objectives remove upgradeable_spawners.spawn_delay
+scoreboard objectives remove upgradeable_spawners.spawn_range
+scoreboard objectives remove upgradeable_spawners.no_ai
+scoreboard objectives remove upgradeable_spawners.low_hp
+
+scoreboard objectives remove upgradeable_spawners.spawn_count_check
+scoreboard objectives remove upgradeable_spawners.player_distance_check
+scoreboard objectives remove upgradeable_spawners.spawn_delay_check
+scoreboard objectives remove upgradeable_spawners.spawn_range_check
+scoreboard objectives remove upgradeable_spawners.no_ai_check
+scoreboard objectives remove upgradeable_spawners.low_hp_check
+
+say Successfully uninstalled Upgradeable Spawners!

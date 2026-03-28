@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&upgradeable_spawners_advancements"
+              },
+              "score": "jodek.config"
+            },
+            "range": 0
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "jodek:upgradeable_spawners": true,
+                  "jodek:root": true,
+                  "jodek:utility": true,
+                  "jodek:spawn_count_upgrade": true,
+                  "jodek:spawn_delay_upgrade": true,
+                  "jodek:player_distance_upgrade": true,
+                  "jodek:spawn_range_upgrade": true,
+                  "jodek:low_hp_upgrade": true,
+                  "jodek:no_ai_upgrade": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "upgradeable_spawners:remove_advancements"
+  }
+}

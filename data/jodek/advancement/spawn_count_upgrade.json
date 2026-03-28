@@ -60,10 +60,26 @@
     "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "jodek:upgradeablespawners",
+  "parent": "jodek:upgradeable_spawners",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&upgradeable_spawners_advancements"
+              },
+              "score": "jodek.config"
+            },
+            "range": 1
+          }
+        ]
+      }
     }
   }
 }

@@ -1,0 +1,10 @@
+advancement revoke @s only upgradeable_spawners:remove_advancements
+advancement revoke @s only jodek:upgradeable_spawners
+advancement revoke @s only jodek:root
+advancement revoke @s only jodek:utility
+advancement revoke @s only jodek:spawn_count_upgrade
+advancement revoke @s only jodek:spawn_delay_upgrade
+advancement revoke @s only jodek:player_distance_upgrade
+advancement revoke @s only jodek:spawn_range_upgrade
+advancement revoke @s only jodek:low_hp_upgrade
+advancement revoke @s only jodek:no_ai_upgrade
