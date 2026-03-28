@@ -36,5 +36,5 @@ You can attach modules to spawners to upgrade them
 To enable and disable upgrades
 
 ```
-/trigger upgradeablespawners.config
+/trigger upgradeable_spawners.config
 ```
